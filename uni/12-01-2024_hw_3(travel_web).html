@@ -81,17 +81,22 @@
 	</section>
 
 	<script>
-		var navLinks = document.querySelectorAll('nav ul li a');
-		for (var i = 0; i < navLinks.length; i++) {
-			navLinks[i].addEventListener('click', function (event) {
-				event.preventDefault();
-				var section = document.querySelector(this.getAttribute('href'));
-				window.scrollTo({
-					top: section.offsetTop,
-					behavior: 'smooth'
+		document.addEventListener('DOMContentLoaded', function () {
+			var navLinks = document.querySelectorAll('nav ul li a');
+	
+			for (var i = 0; i < navLinks.length; i++) {
+				navLinks[i].addEventListener('click', function (event) {
+					event.preventDefault();
+					var targetSection = document.querySelector(this.getAttribute('href'));
+					var targetOffset = targetSection.offsetTop;
+	
+					window.scrollTo({
+						top: targetOffset,
+						behavior: 'smooth'
+					});
 				});
-			});
-		}
+			}
+		});
 	</script>
 </body>
 
