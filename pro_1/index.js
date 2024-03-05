@@ -495,3 +495,7 @@ function addAddress(){
         alert("Address not added")
     }
 }
+
+function redirectToLogin() {
+    window.location.href = './web_dev/pro_1/login/form.html'; 
+}
