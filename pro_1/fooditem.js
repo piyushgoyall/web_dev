@@ -5,7 +5,7 @@ const foodItem= [
     category : 'biryani',
     rating : 4.3,
     price: 100,
-    img: 'C:\Users\piyus\Coding\web_dev\pro_1\images\biryani\Ambur-Chicken-Biryani.jpg',
+    img: './images/biryani/Ambur-Chicken-Biryani.jpg',
     quantity: 1
 },
 {
@@ -14,7 +14,7 @@ const foodItem= [
     category : 'biryani',
     rating : 4.3,
     price: 340,
-    img: 'C:\Users\piyus\Coding\web_dev\pro_1\images\biryani\Chicken-Biryani-hyd.jpg',
+    img: './images/biryani/Chicken-Biryani-hyd.jpg',
     quantity: 1
 },
 {
@@ -23,7 +23,7 @@ const foodItem= [
     category : 'biryani',
     rating : 4.3,
     price: 200,
-    img: 'C:\Users\piyus\Coding\web_dev\pro_1\images\biryani\egg-biryani.jpeg',
+    img: './images/biryani/egg-biryani.jpeg',
     quantity: 1
 },
 {
@@ -32,7 +32,7 @@ const foodItem= [
     category : 'biryani',
     rating : 4.3,
     price: 320,
-    img: 'C:\Users\piyus\Coding\web_dev\pro_1\images\biryani\goan-fish-biryani.jpg',
+    img: './images/biryani/goan-fish-biryani.jpg',
     quantity: 1
 },
 {
@@ -41,7 +41,7 @@ const foodItem= [
     category : 'biryani',
     rating : 4.3,
     price: 300,
-    img: 'C:\Users\piyus\Coding\web_dev\pro_1\images\biryani\hyd-Mutton-Biryani.jpg',
+    img: './images/biryani/hyd-Mutton-Biryani.jpg',
     quantity: 1
 },
 {
@@ -50,7 +50,7 @@ const foodItem= [
     category : 'biryani',
     rating : 4.3,
     price: 400,
-    img: 'C:\Users\piyus\Coding\web_dev\pro_1\images\biryani\kamrupi-biryani.jpg',
+    img: './images/biryani/kamrupi-biryani.jpg',
     quantity: 1
 },
 {
@@ -59,7 +59,7 @@ const foodItem= [
     category : 'biryani',
     rating : 4.3,
     price: 270,
-    img: 'C:\Users\piyus\Coding\web_dev\pro_1\images\biryani\kashmiri.pulao.jpg',
+    img: './images/biryani/kashmiri.pulao.jpg',
     quantity: 1
 },
 {
@@ -68,7 +68,7 @@ const foodItem= [
     category : 'biryani',
     rating : 4.3,
     price: 240,
-    img: 'C:\Users\piyus\Coding\web_dev\pro_1\images\biryani\memonibiryani.png',
+    img: './images/biryani/memonibiryani.png',
     quantity: 1
 },
 {
@@ -77,7 +77,7 @@ const foodItem= [
     category : 'biryani',
     rating : 4.3,
     price: 160,
-    img: 'C:\Users\piyus\Coding\web_dev\pro_1\images\biryani\mughlai-biryani.jpg',
+    img: './images/biryani/mughlai-biryani.jpg',
     quantity: 1
 },
 {
@@ -332,7 +332,7 @@ const foodItem= [
     name: 'Butter Masala Dosa',
     category : 'south indian',
     rating : 4.3,
-    price: 180,
+    price: 140,
     img: 'images/south indian/Butter-Masala-Dosa.png',
     quantity: 1
 },
@@ -341,7 +341,7 @@ const foodItem= [
     name: 'Idli',
     category : 'south indian',
     rating : 4.3,
-    price: 270,
+    price: 100,
     img: 'images/south indian/idli-with-rice-flour.jpg',
     quantity: 1
 },
@@ -359,7 +359,7 @@ const foodItem= [
     name: 'Mysore Bonda',
     category : 'south indian',
     rating : 4.3,
-    price: 140,
+    price: 160,
     img: 'images/south indian/mysore-bonda.jpg',
     quantity: 1
 },
@@ -368,7 +368,7 @@ const foodItem= [
     name: 'Onion Uttapam',
     category : 'south indian',
     rating : 4.3,
-    price: 150,
+    price: 80,
     img: 'images/south indian/onion-uttapam.jpg',
     quantity: 1
 },
@@ -377,7 +377,7 @@ const foodItem= [
     name: 'Plain Dosa',
     category : 'south indian',
     rating : 4.3,
-    price: 460,
+    price: 100,
     img: 'images/south indian/plain-dosa.jpeg',
     quantity: 1
 },
@@ -386,7 +386,7 @@ const foodItem= [
     name: 'Rava Uttapam',
     category : 'south indian',
     rating : 4.3,
-    price: 250,
+    price: 100,
     img: 'images/south indian/Rava-Uttapam.jpg',
     quantity: 1
 },
@@ -395,7 +395,7 @@ const foodItem= [
     name: 'Sambhar Vada',
     category : 'south indian',
     rating : 4.3,
-    price: 320,
+    price: 80,
     img: 'images/south indian/sambhar-vada.jpg',
     quantity: 1
 },

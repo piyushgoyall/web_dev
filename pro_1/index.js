@@ -1,4 +1,4 @@
-import {foodItem} from '.\C:\Users\piyus\Coding\web_dev\pro_1\fooditem.js'
+import {foodItem} from './fooditem.js'
 
 function displayItems(){
     var biryani= document.getElementById('biryani');
@@ -30,7 +30,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa fa-heart-o add-to-cart');
+        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -46,7 +46,7 @@ function displayItems(){
 
         var itemPrice= document.createElement('p');
         itemPrice.setAttribute('id','item-price');
-        itemPrice.innerText= 'Price : $ ' + item.price;
+        itemPrice.innerText= 'Price : ₹ ' + item.price;
 
         itemCard.appendChild(cardTop);
         itemCard.appendChild(img);
@@ -71,7 +71,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa fa-heart-o add-to-cart');
+        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -87,7 +87,7 @@ function displayItems(){
 
         var itemPrice= document.createElement('p');
         itemPrice.setAttribute('id','item-price');
-        itemPrice.innerText= 'Price : $ ' + item.price;
+        itemPrice.innerText= 'Price : ₹ ' + item.price;
 
         itemCard.appendChild(cardTop);
         itemCard.appendChild(img);
@@ -111,7 +111,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa fa-heart-o add-to-cart');
+        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -127,7 +127,7 @@ function displayItems(){
 
         var itemPrice= document.createElement('p');
         itemPrice.setAttribute('id','item-price');
-        itemPrice.innerText= 'Price : $ ' + item.price;
+        itemPrice.innerText= 'Price : ₹ ' + item.price;
 
         itemCard.appendChild(cardTop);
         itemCard.appendChild(img);
@@ -151,7 +151,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa fa-heart-o add-to-cart');
+        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -167,7 +167,7 @@ function displayItems(){
 
         var itemPrice= document.createElement('p');
         itemPrice.setAttribute('id','item-price');
-        itemPrice.innerText= 'Price : $ ' + item.price;
+        itemPrice.innerText= 'Price : ₹ ' + item.price;
 
         itemCard.appendChild(cardTop);
         itemCard.appendChild(img);
@@ -192,7 +192,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa fa-heart-o add-to-cart');
+        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -208,7 +208,7 @@ function displayItems(){
 
         var itemPrice= document.createElement('p');
         itemPrice.setAttribute('id','item-price');
-        itemPrice.innerText= 'Price : $ ' + item.price;
+        itemPrice.innerText= 'Price : ₹ ' + item.price;
 
         itemCard.appendChild(cardTop);
         itemCard.appendChild(img);
@@ -233,7 +233,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa fa-heart-o add-to-cart');
+        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -249,7 +249,7 @@ function displayItems(){
 
         var itemPrice= document.createElement('p');
         itemPrice.setAttribute('id','item-price');
-        itemPrice.innerText= 'Price : $ ' + item.price;
+        itemPrice.innerText= 'Price : ₹ ' + item.price;
 
         itemCard.appendChild(cardTop);
         itemCard.appendChild(img);
@@ -281,7 +281,7 @@ function selectTaste(){
         listName.setAttribute('class','list-name');
         listName.innerText= item.category;
         listName.setAttribute('href','#'+item.category)
-    
+
         listCard.appendChild(listImg);
         listCard.appendChild(listName);
 
@@ -419,8 +419,8 @@ function totalAmount(){
         sum+= item.price;
     })
     document.getElementById('total-item').innerText= 'Total Item : ' + cartData.length;
-    document.getElementById('total-price').innerText= 'Total Price : $ ' + sum;
-    document.getElementById('m-total-amount').innerText= 'Total Price : $ ' + sum;
+    document.getElementById('total-price').innerText= 'Total Price : ₹ ' + sum;
+    document.getElementById('m-total-amount').innerText= 'Total Price : ₹ ' + sum;
 }
 
 document.getElementById('cart-plus').addEventListener('click',cartToggle);
