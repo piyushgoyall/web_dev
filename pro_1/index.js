@@ -486,15 +486,15 @@ document.getElementById('add-address').addEventListener('click',addAddress);
 
 document.getElementById('m-add-address').addEventListener('click',addAddress);
 
-function addAddress(){
-    var address= prompt('Enter your address','');
-    if(address){
-        document.getElementById('add-address').innerText= ' ' + address;
-    }
-    else{
-        alert("Address not added")
-    }
-}
+// function addAddress(){
+//     var address= prompt('Enter your address','');
+//     if(address){
+//         document.getElementById('add-address').innerText= ' ' + address;
+//     }
+//     else{
+//         alert("Address not added")
+//     }
+// }
 
 function redirectToLogin() {
     window.location.href = './web_dev/pro_1/login/form.html'; 
