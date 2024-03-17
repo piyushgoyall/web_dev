@@ -30,7 +30,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
+        heart.setAttribute('class','fa fa-shopping-cart add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -71,7 +71,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
+        heart.setAttribute('class','fa fa-shopping-cart add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -111,7 +111,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
+        heart.setAttribute('class','fa fa-shopping-cart add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -151,7 +151,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
+        heart.setAttribute('class','fa fa-shopping-cart add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -192,7 +192,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
+        heart.setAttribute('class','fa fa-shopping-cart add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -233,7 +233,7 @@ function displayItems(){
         star.innerText= ' ' + item.rating;
 
         var heart= document.createElement('i');
-        heart.setAttribute('class','fa-solid fa-cart-shopping add-to-cart');
+        heart.setAttribute('class','fa fa-shopping-cart add-to-cart');
         heart.setAttribute('id',item.id)
 
         cardTop.appendChild(star);
@@ -495,7 +495,3 @@ document.getElementById('m-add-address').addEventListener('click',addAddress);
 //         alert("Address not added")
 //     }
 // }
-
-function redirectToLogin() {
-    window.location.href = './web_dev/pro_1/login/form.html'; 
-}
